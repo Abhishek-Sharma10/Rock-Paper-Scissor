@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    align-content: center;
+}
+.game-zone{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-icon{
+    width: 45vh;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+}
+#button-1{
+    background-color:  #ff82f1;
+}
+#button-2{
+    background-color: #c48ce0;
+}
+#button-3{
+    background-color: #51aeff;
+}
+.count-win{
+    display: flex;
+    justify-content: center;
+}
+.count-area{
+    width: 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+.count{
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+}
+.system{
+    font-weight: bold;
+}
+.win-msg{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    border-radius: 5px;
+    padding: 0 3vh;
+    font-size: 3vh;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
