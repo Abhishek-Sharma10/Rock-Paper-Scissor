@@ -26,13 +26,13 @@
     width: 12vh;
     border-radius: 50%;
 }
-#button-1{
+#rock{
     background-color:  #ff82f1;
 }
-#button-2{
+#paper{
     background-color: #c48ce0;
 }
-#button-3{
+#scissors{
     background-color: #51aeff;
 }
 .count-win{
@@ -40,7 +40,7 @@
     justify-content: center;
 }
 .count-area{
-    width: 12vh;
+    width: 20vh;
     display: flex;
     justify-content: space-between;
 }
@@ -62,7 +62,7 @@
     border-radius: 5px;
     padding: 0 3vh;
     font-size: 3vh;
-    background-color: green;
+    background-color: rgb(0, 166, 172);
     color: white;
     text-align: center;
 }
