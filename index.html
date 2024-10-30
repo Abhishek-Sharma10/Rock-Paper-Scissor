@@ -11,9 +11,9 @@
     <div class="name">Rock Paper Scissors</div>
     <div class="game-zone">
         <div class="game-icon">
-            <button class="button" id="button-1"><i class="fa-regular fa-hand-back-fist fa-5x"></i></button>
-            <button class="button" id="button-2"><i class="fa-regular fa-hand fa-5x"></i></button>
-            <button class="button" id="button-3"><i class="fa-regular fa-hand-scissors fa-rotate-90 fa-5x"></i></button>
+            <button class="button" id="rock"><i class="fa-regular fa-hand-back-fist fa-5x"></i></button>
+            <button class="button" id="paper"><i class="fa-regular fa-hand fa-5x"></i></button>
+            <button class="button" id="scissors"><i class="fa-regular fa-hand-scissors fa-rotate-90 fa-5x"></i></button>
         </div>
     </div>
     <div class="count-win">
@@ -22,14 +22,18 @@
                 <p id="count-you" class="count">0</p>
                 <p class="system">you</p>
             </div>
+            <div class="draw-count">
+                <p id="count-draw" class="count">0</p>
+                <p class="system">draw</p>
+            </div>
             <div class="comp-count">
-                <p id="count-you" class="count">0</p>
+                <p id="count-comp" class="count">0</p>
                 <p class="system">comp.</p>
             </div>
         </div>
     </div>
     <div class="win-msg">
-        <p class="msg">You won! rock beats scissors</p>
+        <p class="msg">Play Your Move</p>
     </div>
 </body>
 <script src="app.js"></script>
